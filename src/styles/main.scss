@@ -1,0 +1,51 @@
+@import 'normalize.scss';
+@import 'circle-section.css';
+@import 'about-section.css';
+@import 'runes-section.css';
+@import 'slide-section.css';
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+html{
+
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body
+{
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: #0c1023;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #b5bad3;
+  transition: 0.5s ease-in-out;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+li {
+  list-style: none;
+}
+
+#wrapper {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+// .container {
+//   width: 875px;
+//   margin: 0 auto;
+// }

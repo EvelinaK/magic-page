@@ -1,0 +1,242 @@
+.magic-about{
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    padding-right: 0px;
+    padding-bottom: 150px;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    box-shadow: 0 0 0 0 #ffffff;
+}
+
+.container{
+    width: 100%;
+    margin: 0 15px;
+    padding: 10px;
+    display: flex;
+}
+
+.magic-about__section-row{
+    display: flex;
+    justify-content: center;
+      flex-wrap: wrap;
+      position: relative;
+      width: 100%;
+      height: 100%;
+}
+
+.magic-about-section-wrapper{
+    padding: 0 15px;
+    box-sizing: content-box;
+    width: 100%;
+}
+
+.magic-about__fakir-section{
+
+}
+
+.magic-about__fakir-image-block{
+
+}
+
+.magic-about__fakir-image{
+    vertical-align: middle;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.magic-about__fakir-section-wrapper{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;   
+}
+
+
+.magic-about__text-section-wrapper{
+    position: relative;
+    /* width: 100%; */
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;   
+}
+.magic-about__text-section{
+
+}
+
+.magic-about__text-block{
+
+}
+
+.magic-about__text-main-title{
+    margin-bottom: 0 !important;
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+}
+
+.magic-about__text-main-title::before{
+    background-color: #fff;
+    border-radius: 2px;
+    content: "";
+    display: inline-block;
+    height: 5px;
+    left: calc(100% + 20px);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 19px;
+}
+.magic-about__text-main-title::after{
+    background-color: #fff;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    left: calc(100% + 20px);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 120px;
+}
+
+/* .magic-about__text-divider-position{
+    position: relative;
+    text-align: left;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    width: 120px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #fff;
+
+}
+
+.magic-about__text-divider-position::before{
+    background-color: #fff;
+    border-radius: 2px;
+    content: "";
+    display: inline-block;
+    height: 5px;
+    right: calc(100% - 20px);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+} */
+.magic-about__text-content{
+    box-sizing: border-box;
+}
+.magic-about__text-gide{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start !important;
+    font-size: 30px;
+    line-height: 1.1;
+}
+.magic-about__text-title{
+    line-height: 1;
+    margin-bottom: 0;
+    margin-top: .5rem;
+    word-wrap: break-word;
+    font-size: 60px;
+    font-family: "El Messiri", sans-serif;
+    -webkit-font-feature-settings: "lnum" 1;
+    font-feature-settings: "lnum" 1;
+    font-variant-numeric: lining-nums;
+    font-weight: 400;
+    line-height: 1;
+    word-break: break-word;
+    color: #ca416e;
+}
+
+
+.magic-about__text-article{
+    margin-bottom: 1.2em;
+}
+.magic-about__text-gide-content{
+    font-size: 30px;
+    line-height: 1.1;
+    margin-left: 20px;
+    margin-top: 0 !important;
+    color: #b5bad3;
+}
+.magic-about__title{
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 90px;
+    font-weight: bold;
+    line-height: 0.8;
+    padding-top: 0.2em;
+    color: #219bf1;
+}
+.magic-about__counter-add{
+    font-size: 30px;
+    line-height: 1.1;
+    color: #b5bad3;
+    font-weight: 300;
+}
+.magic-about__color-dark{
+    border-color: #fff;
+    color: #fff;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+.magic-about__fakir-image{
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 767px){
+.container {
+    width: 100%;
+}
+}
+
+@media (min-width: 576px){
+    .container {
+        max-width: 540px;
+        /* margin-right: auto;
+        margin-left: auto;
+        padding-left: 15px;
+        padding-right: 15px; */
+    }
+}
+  
+@media (min-width: 768px){
+    .container {
+        max-width: 720px;
+    }
+} 
+
+@media (min-width: 992px){
+.container {
+    max-width: 960px;
+}
+
+.magic-about__fakir-section-wrapper{
+    flex: 0 0 50%;
+    max-width: 50%;
+    }
+    .magic-about__text-section-wrapper{
+        flex: 0 0 50%;
+        max-width: 50%;   
+    }
+
+}
+@media (min-width: 1200px){
+    .container {
+        max-width: 1140px;
+    }
+    }
+
+
+    
